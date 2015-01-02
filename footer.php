@@ -14,7 +14,7 @@
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'lake_ballinger' ) ); ?>"><?php printf( __( 'Powered by %s', 'lake_ballinger' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'lake_ballinger' ), 'Lake Ballinger', '<a href="http://lovebirdsconsulting.com" rel="designer">Love Birds Consulting</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s.', 'lake_ballinger' ), '<a href="http://djmcloud.danieljmckeown.com/lakeballinger/" rel="theme">Lake Ballinger</a>', '<a href="http://lovebirdsconsulting.com" rel="designer">Love Birds Consulting</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
