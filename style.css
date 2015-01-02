@@ -4,7 +4,7 @@ Theme URI: http://djmcloud.danieljcmkeown.com/lakeballinger/
 Author: Love Birds Consulting
 Author URI: http://lovebirdsconsulting.com/
 Description: The first 2015 theme for WordPress from LoveBirdsConsulting
-Version: 0.1.5
+Version: 0.2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bitter_lake
@@ -21,7 +21,7 @@ and Foundation v5.5.0 http://foundation.zurb.com/, (C) 2014 Zurb.
 */
 
 p {
-    padding: 10px;
+    padding: 8px;
 }
 
 h1 {
