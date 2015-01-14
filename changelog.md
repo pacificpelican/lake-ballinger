@@ -6,3 +6,7 @@ Jan. 14, 2015
 	still sits below content on smaller ones using Foundation's grid system
 -a few small CSS tweaks to allow for more padding on content without excessive
 	padding on nav element
+
+new for version 0.3.1
+Jan. 14, 2015
+-single posts now have widget sidebar too
