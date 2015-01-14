@@ -24,12 +24,9 @@
 
 
 <div class="row">
-	
-
 
 	<div id="page" class="hfeed site">
 		
-
 
 			<nav class="top-bar" data-topbar>
 					<ul class="title-area">
@@ -38,7 +35,7 @@
 					<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					</li>
 					<li class="toggle-topbar menu-icon">
-					<a href="#"><span>menu</span></a>
+					<a href="#"><span></span></a>
 					</li>
 					</ul>
 						<section class="top-bar-section">
@@ -53,4 +50,4 @@
 
 
 
-	<div id="content" class="site-content">
+	<div id="content" class="site-content spacez">
