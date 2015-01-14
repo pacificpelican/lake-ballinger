@@ -18,7 +18,7 @@ function lake_ballinger_paging_nav() {
 	}
 	?>
 	<nav class="navigation paging-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'lake_ballinger' ); ?></h1>
+		<h1 class="screen-reader-text"><?php _e( '', 'lake_ballinger' ); ?></h1>
 		<div class="nav-links">
 
 			<?php if ( get_next_posts_link() ) : ?>

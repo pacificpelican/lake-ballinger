@@ -10,3 +10,8 @@ Jan. 14, 2015
 new for version 0.3.1
 Jan. 14, 2015
 -single posts now have widget sidebar too
+
+new for version 0.4.0
+Jan. 14, 2015
+-footer redesign: uses Foundation to put WordPress credit on 1 line, then theme credit
+-removed unnecessary "Posts Navigation" from template tags
