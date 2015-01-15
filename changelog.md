@@ -19,3 +19,7 @@ Jan. 14, 2015
 new for version 0.4.1
 Jan. 14, 2015
 -date improvements: the new, simpler functions doesn't sometimes output two
+
+new for version 0.4.2
+Jan. 14, 2015
+-updated screenshot
