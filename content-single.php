@@ -9,7 +9,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
-			<?php lake_ballinger_posted_on(); ?>
+			<?php lake_ballinger_posted_on_evolved(); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 

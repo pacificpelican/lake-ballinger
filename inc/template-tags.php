@@ -93,6 +93,32 @@ function lake_ballinger_posted_on() {
 }
 endif;
 
+if ( ! function_exists( 'lake_ballinger_posted_on_evolved' ) ) :
+/**
+ * Prints HTML with meta information for the current post-date/time and author.
+ */
+function lake_ballinger_posted_on_evolved() {
+	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
+	
+$time_string = get_the_date();
+
+	$posted_on = sprintf(
+		_x( 'Posted on %s', 'post date', 'lake_ballinger' ),
+		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
+	);
+
+	$byline = sprintf(
+		_x( 'by %s', 'post author', 'lake_ballinger' ),
+		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
+	);
+
+	echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>';
+
+}
+endif;
+
+
+
 if ( ! function_exists( 'lake_ballinger_entry_footer' ) ) :
 /**
  * Prints HTML with meta information for the categories, tags and comments.

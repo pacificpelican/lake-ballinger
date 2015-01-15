@@ -15,3 +15,7 @@ new for version 0.4.0
 Jan. 14, 2015
 -footer redesign: uses Foundation to put WordPress credit on 1 line, then theme credit
 -removed unnecessary "Posts Navigation" from template tags
+
+new for version 0.4.1
+Jan. 14, 2015
+-date improvements: the new, simpler functions doesn't sometimes output two
