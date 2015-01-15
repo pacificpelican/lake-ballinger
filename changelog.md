@@ -23,3 +23,7 @@ Jan. 14, 2015
 new for version 0.4.2
 Jan. 14, 2015
 -updated screenshot
+
+new for version 0.4.3
+Jan. 14, 2015
+-links in footer.php and header.php that reference template directory use newer escapier functions now
