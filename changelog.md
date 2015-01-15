@@ -34,3 +34,9 @@ Jan. 15, 2015
 	this fixes as layout problem where sites would show L-R arrows even on sites
 	that appeared to not have any content overflowing that way: a space was sitting
 	to the right of the nav bar on medium size screens
+
+new for version 0.4.5
+Jan. 15, 2015
+-layout fix for pages: the previous fix revealed how behind the pages template had fallen from the inedex;
+	now pages should act as in 0.4.3 but through an intentional design;
+	NO SIDEBARS on pages now
