@@ -27,3 +27,10 @@ Jan. 14, 2015
 new for version 0.4.3
 Jan. 14, 2015
 -links in footer.php and header.php that reference template directory use newer escapier functions now
+
+new for version 0.4.4
+Jan. 15, 2015
+-layout fix: div ID 'page' was below row where now it is above (and contains it):
+	this fixes as layout problem where sites would show L-R arrows even on sites
+	that appeared to not have any content overflowing that way: a space was sitting
+	to the right of the nav bar on medium size screens

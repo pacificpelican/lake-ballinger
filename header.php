@@ -22,10 +22,11 @@
 
 <body>
 
+<div id="page" class="hfeed site">
 
 <div class="row">
 
-	<div id="page" class="hfeed site">
+	
 		
 
 			<nav class="top-bar" data-topbar>
