@@ -40,3 +40,9 @@ Jan. 15, 2015
 -layout fix for pages: the previous fix revealed how behind the pages template had fallen from the inedex;
 	now pages should act as in 0.4.3 but through an intentional design;
 	NO SIDEBARS on pages now
+
+new for version 0.5.0
+Jan. 19, 2015
+-layout change on posts: slight indentation of the 'posted on' for consistency
+-re-organization of dependency file structure
+-less massive h1 titles in the sidebar

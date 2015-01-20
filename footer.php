@@ -34,8 +34,8 @@
   ('__proto__' in {} ? 'zepto' : 'jquery') +
   '.js><\/script>')
   </script>
-<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/more/js/jquery/jquery.js"></script>
-<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/more/js/foundation/foundation.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery/jquery.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/foundation/foundation.js"></script>
 <script>
     $(document).foundation();
   </script>
@@ -50,8 +50,8 @@
 
 
 
-<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/more/js/foundation/templates.js"></script>
-<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/more/js/foundation/marketing.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/foundation/templates.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/foundation/marketing.js"></script>
 
 </body>
 </html>

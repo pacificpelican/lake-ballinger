@@ -14,8 +14,8 @@
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/more/css/foundation/foundation.css"/>
-<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/more/js/modernizr/modernizr.js"></script>
+<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/foundation/foundation.css"/>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/modernizr/modernizr.js"></script>
 
 <?php wp_head(); ?>
 </head>
