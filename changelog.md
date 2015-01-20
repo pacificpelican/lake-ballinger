@@ -50,3 +50,7 @@ Jan. 19, 2015
 new for version 0.5.1
 Jan. 19, 2015
 -style.css tweaks including changing text domain to lake_ballinger
+
+new for version 0.5.2
+Jan. 19, 2015
+-layout tweaks: padding adjustments: made some padding-left rather than just padding
