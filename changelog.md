@@ -46,3 +46,7 @@ Jan. 19, 2015
 -layout change on posts: slight indentation of the 'posted on' for consistency
 -re-organization of dependency file structure
 -less massive h1 titles in the sidebar
+
+new for version 0.5.1
+Jan. 19, 2015
+-style.css tweaks including changing text domain to lake_ballinger
