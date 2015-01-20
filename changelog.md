@@ -54,3 +54,7 @@ Jan. 19, 2015
 new for version 0.5.2
 Jan. 19, 2015
 -layout tweaks: padding adjustments: made some padding-left rather than just padding
+
+new for version 0.5.3
+Jan. 20, 2015
+-alignment fixes (for different h1 tags)

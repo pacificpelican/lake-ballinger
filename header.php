@@ -33,7 +33,7 @@
 					<ul class="title-area">
 					 
 					<li class="name">
-					<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+					<h1 class="ballingertitle" id="ballingerblogtitle"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					</li>
 					<li class="toggle-topbar menu-icon">
 					<a href="#"><span></span></a>
