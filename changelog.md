@@ -58,3 +58,7 @@ Jan. 19, 2015
 new for version 0.5.3
 Jan. 20, 2015
 -alignment fixes (for different h1 tags)
+
+new for version 0.5.4
+Jan. 23, 2015
+-remove redundant script: Zepto/jQuery call in footer.php

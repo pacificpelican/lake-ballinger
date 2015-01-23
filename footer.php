@@ -29,11 +29,7 @@
 
 <?php wp_footer(); ?>
 
-<script>
-  document.write('<script src=js/vendor/' +
-  ('__proto__' in {} ? 'zepto' : 'jquery') +
-  '.js><\/script>')
-  </script>
+
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery/jquery.js"></script>
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/foundation/foundation.js"></script>
 <script>
