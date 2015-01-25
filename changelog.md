@@ -62,3 +62,7 @@ Jan. 20, 2015
 new for version 0.5.4
 Jan. 23, 2015
 -remove redundant script: Zepto/jQuery call in footer.php
+
+new for version 0.6.0
+Jan. 25, 2015
+-loading JavaScript and CSS WP-style

@@ -12,10 +12,10 @@
 
 	<footer id="colophon" class="site-footer row" role="contentinfo">
 		<div class="site-info large-10 columns">
-			
+
 			<span class="sep">  </span>
-			
-		
+
+
 <ul class="pricing-table">
   <li class="title"><a href="<?php echo esc_url( __( 'http://wordpress.org/', 'lake_ballinger' ) ); ?>"><?php printf( __( 'Powered by %s', 'lake_ballinger' ), 'WordPress' ); ?></a></li>
   <li class="description"><?php printf( __( 'Theme: %1$s by %2$s', 'lake_ballinger' ), '<a href="http://djmcloud.danieljmckeown.com/lakeballinger/" rel="theme">Lake Ballinger</a>', '<a href="http://lovebirdsconsulting.com" rel="designer">Love Birds Consulting</a>' ); ?>
@@ -30,8 +30,7 @@
 <?php wp_footer(); ?>
 
 
-<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery/jquery.js"></script>
-<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/foundation/foundation.js"></script>
+
 <script>
     $(document).foundation();
   </script>
@@ -45,9 +44,6 @@
 
 
 
-
-<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/foundation/templates.js"></script>
-<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/foundation/marketing.js"></script>
 
 </body>
 </html>

@@ -136,3 +136,50 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+
+function theme_name_scripts() {
+
+	$themeloc = esc_url( get_template_directory_uri() );
+
+	// -----------------------------
+
+	$srcfoundationcss = "$themeloc/css/foundation/foundation.css";
+
+
+	wp_register_style( "foundationcss", $srcfoundationcss );
+
+
+	wp_enqueue_style( "foundationcss" );
+
+	//  ----------------------------
+
+	$srcmodernizr = "$themeloc/js/modernizr/modernizr.js";
+
+	$srcjqtoo = "$themeloc/js/jquery/jquery.js";
+
+	$srctemplates = "$themeloc/js/foundation/templates.js";
+
+	$srcmarketing = "$themeloc/js/foundation/marketing.js";
+
+
+	wp_register_script( "lakemodernizr", $srcmodernizr );
+
+	wp_register_script( "portjqry", $srcjqtoo );
+
+	wp_register_script( "portmterial", $srctemplates );
+
+	wp_register_script( "lakemarketing", $srcmarketing );
+
+
+	wp_enqueue_script( "lakemodernizr" );
+
+	wp_enqueue_script( "portjqry" );
+
+	wp_enqueue_script( "portmterial" );
+
+	wp_enqueue_script( "lakemarketing" );
+
+}
+
+add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );

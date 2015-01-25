@@ -14,9 +14,6 @@
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/foundation/foundation.css"/>
-<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/modernizr/modernizr.js"></script>
-
 <?php wp_head(); ?>
 </head>
 
@@ -26,12 +23,12 @@
 
 <div class="row">
 
-	
-		
+
+
 
 			<nav class="top-bar" data-topbar>
 					<ul class="title-area">
-					 
+
 					<li class="name">
 					<h1 class="ballingertitle" id="ballingerblogtitle"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					</li>
@@ -43,9 +40,9 @@
 							<ul class="right">
 							<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 							</ul>
-							
+
 						</section>
-			</nav> 
+			</nav>
 
 </div>
 
