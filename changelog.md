@@ -66,3 +66,8 @@ Jan. 23, 2015
 new for version 0.6.0
 Jan. 25, 2015
 -loading JavaScript and CSS WP-style
+
+new for version 0.6.1
+March 21, 2015
+-readme.md updates
+
